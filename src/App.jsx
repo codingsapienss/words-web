@@ -25,8 +25,8 @@ const App = () => {
    
   return (
     <div className="container">
-      
-      <p style={{fontWeight:'600',fontSize:'4rem'}}> { !word?`Word Web`:word }</p>
+
+      <p style={{fontWeight:'600',fontSize:'4rem'}}> { !word?`Words Web`:word }</p>
      
       <Input setWord={setWord} />
       
