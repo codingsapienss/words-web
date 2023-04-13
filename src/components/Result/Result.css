@@ -10,7 +10,7 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1.5rem .5rem;
 }
 
 .phonetics{
@@ -55,7 +55,7 @@
     border-left: 1px solid white;
     box-shadow: 5px 5px 10px black; */
     border: 1px solid whitesmoke;
-    margin: .5rem;
+    margin: .5rem 0;
     padding: .5rem;
     border-radius: 10px;
     text-transform: capitalize;
