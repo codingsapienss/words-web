@@ -11,6 +11,7 @@ const Input = ({setWord}) => {
           type="text"
           name="search"
           id="search"
+          autocomplete="off"
           placeholder="Search here..."
           onChange={(e)=>{setWord(e.target.value)
           ;}}
