@@ -1,79 +1,84 @@
-.results{
-    width: 94vw;
-    max-width: 720px;
-    border: none;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px black;
-    background-color: transparent;
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem .5rem;
+.results {
+  width: 94vw;
+  max-width: 720px;
+  border: none;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  background-color: transparent;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0.5rem;
 }
 
-.phonetics{
-    margin-top: 1rem;
-    margin-left: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 15px;
-    gap: 1rem;
+.phonetics {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  gap: 1rem;
 }
 
-.word ,.text {
-    font-size: 2.2rem;
-    font-weight: 800
+.heading {
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
-.heading  {
-    font-size: 2rem;
-    font-weight: 700;
+.para {
+  font-size: 1.2rem;
+  color: rgb(194, 192, 192);
 }
 
-.para{
-    font-size: 1.4rem;
-    color: rgb(194, 192, 192);
+.def {
+  margin: 15px 6px;
 }
 
-
-.def{
-    margin: 15px 6px;
-}
-
-.emptyResult{
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 3rem;
+.emptyResult {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
 }
 
 .pos {
-    /* border: none;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    box-shadow: 5px 5px 10px black; */
-    border: 1px solid whitesmoke;
-    margin: .5rem 0;
-    padding: .5rem;
-    border-radius: 10px;
-    text-transform: capitalize;
-    font-size: 2.5rem;
-    /* text-align: center; */
+  border: 1px solid whitesmoke;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-transform: capitalize;
+  /* font-size: 1.5rem; */
+  /* text-align: center; */
 }
 
-.eg{
-    padding:18px 0;
+.partOfSpeech {
+  background: #0f2027ad;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.5rem;
 }
 
-#hr{
-    width: 65%;
-    margin: auto;
-    margin-top: 10px;
+.eg {
+  padding: 18px 0;
 }
 
-.syno{
-    text-transform: capitalize;
+#hr {
+  width: 65%;
+  margin: auto;
+  margin-top: 10px;
 }
 
+.syno {
+  text-transform: capitalize;
+}
+
+.heading b {
+  margin-left: 20px;
+}

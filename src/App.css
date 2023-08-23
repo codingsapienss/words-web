@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: aliceblue;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.container{
-  background: #0F2027;
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+.container {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
   width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -19,6 +19,8 @@
   padding: 3rem 0;
 }
 
-p{
-  font-size: 3rem;
+.main-heading {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
 }

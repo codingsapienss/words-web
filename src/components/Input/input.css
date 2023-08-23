@@ -1,31 +1,32 @@
 .input-wrapper {
-    background-color: white;
-    width: 100%;
-    border-radius: 10px;
-    height: 3rem;
-    padding: 0 10px;
-    box-shadow: 0px 0px 8px #ddd;
-    display: flex;
-    align-items: center;
-    color: black;
-    margin-top: 2rem;
+  background-color: white;
+  width: 100%;
+  max-width: 70vw;
+  border-radius: 10px;
+  height: 3rem;
+  padding: 0 10px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-top: 2rem;
 }
 
 input {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    height: 100%;
-    font-size: 1.5rem;
-    width: 100%;
-    margin-left: 5px;
-    color: black;
-    padding-right: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 100%;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-left: 5px;
+  color: black;
+  padding-right: 5px;
 }
 
 #search-icon {
-    color: royalblue;
-    stroke: royalblue;
-    fill: royalblue;
-    font-size: 20px;
+  color: royalblue;
+  stroke: royalblue;
+  fill: royalblue;
+  font-size: 20px;
 }
