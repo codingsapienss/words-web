@@ -82,3 +82,17 @@
 .heading b {
   margin-left: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .heading {
+    font-size: 0.9rem;
+  }
+
+  .para {
+    font-size: 0.8rem;
+  }
+
+  .heading b {
+    font-size: 0.8rem;
+  }
+}
