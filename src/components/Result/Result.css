@@ -1,5 +1,5 @@
 .results {
-  width: 90vw;
+  width: 95vw;
   max-width: 1020px;
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.4);
@@ -10,7 +10,7 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 0.5rem;
 }
 
 .phonetics {
