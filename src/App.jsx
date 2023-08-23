@@ -26,13 +26,18 @@ const App = () => {
   return (
     <div className="container">
 
-      <p className=' main-heading'> {!word ? `Words Web` : word}</p>
+<<<<<<< HEAD
+      <p className='main-heading'> {!word ? `Words Web` : word}</p>
 
+=======
+      <p style={{fontWeight:'600',fontSize:'4rem', textAlign : 'center'}}> { !word?`Words Web`:word }</p>
+     
+>>>>>>> 894dce8daefa3f536205c55638b4ac77d617d1d3
       <Input setWord={setWord} />
 
-      {meanings ? <Result meanings={meanings} word={word} /> : <span className='emptyResult results'>Search Something...</span>}
+  { meanings ? <Result meanings={meanings} word={word} /> : <span className='emptyResult results'>Search Something...</span> }
 
-    </div>
+    </div >
   )
 }
 
